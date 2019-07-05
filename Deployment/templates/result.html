@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+      <div class="brandname">
+        NLP App
+
+      </div>
+      <h2>Semantic Analysis of Texts</h2>
+      </div>
+    </header>
+    <p style="color:blue;font-size:20;text-align: left;"><b>Results for Comment</b></p>
+      <div class="results">
+        {% if prediction == 1%}
+	       <h2 style="color:red;">offensive</h2>
+	        {% elif prediction == 0%}
+	         <h2 style="color:blue;">Not Offensive</h2>
+	          {% endif %}
+        </div>
+
+  </body>
+
+
+</html>
