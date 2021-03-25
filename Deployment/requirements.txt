@@ -41,7 +41,7 @@ pyOpenSSL==19.0.0
 PySocks==1.6.8
 python-dateutil==2.7.5
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.4
 QtPy==1.6.0
 requests==2.21.0
 requests-oauthlib==1.0.0
