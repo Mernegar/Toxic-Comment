@@ -36,7 +36,7 @@ Pillow==5.1.0
 plac==0.9.6
 psutil==5.5.0
 pycparser==2.19
-PyJWT==1.6.4
+PyJWT==2.4.0
 pyOpenSSL==19.0.0
 PySocks==1.6.8
 python-dateutil==2.7.5
